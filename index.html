@@ -9,9 +9,42 @@
     <!--stylesheet -->
     <link rel="stylesheet" href="./assests/css/main.css">
   </head>
-  <body >
-     <!--  -->
-    <h1>App Works</h1>
+  <body class="bg-gradient-to-r from-purple-500 to-red-500 min-h-screen font-Roboto">
     
+  
+    <div class="bg-zinc-900 sm:bg-white p-10 max-w-lg mx-auto mt-10 rounded shadow-xl ">
+   <div class="">
+    <h1 class=" text-purple-800 font-bold ">CNG cost calculator </h1>
+    <p  class="text-white sm:text-gray-800">simple tool to calculate the cost.</p>
+   </div>
+
+      <form class="mt-5 space-y-4">
+        <div>
+          <label for="trip-distance" class="form-label">Trip Distance<span class="text-red-500">*</span></label>
+
+          <input  id="trip-distance" type="number" placeholder="Trip Distance" class="form-input" required/>
+        </div>
+        
+        <div>
+
+          <label for="fuel-efficeiency" class="form-label">Fuel Efficeiency<span class="text-red-500">*</span></label>
+
+          <input  id="fuel-efficeiency" type="number" placeholder="Fuel Efficeiency" class="form-input" value="24" required/>
+
+        </div>
+        
+
+        <div>
+          <label for="fuel-cost" class="form-label">Fuel cost<span class="text-red-500">*</span></label>
+
+          <input  id="fuel-cost" type="number" placeholder="Fuel cost" class="form-input" value="84" required/>
+
+        </div>
+
+        <div>
+          <button class="bg-purple-700 px-4 py-2 w-full text-white ">calculate</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
