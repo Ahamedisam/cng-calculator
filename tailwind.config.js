@@ -10,7 +10,7 @@ export default {
         "brightrose": "#D92C54"
       },
       fontFamily:{
-        'Roboto':"'Roboto, sans-serif"
+        'Roboto':"Roboto, sans-serif"
       }
     },
   },
